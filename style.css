@@ -1,0 +1,236 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('Img/header.jpg');
+    background-attachment: fixed;
+}
+h2,h3,a{
+    font-family: "Rubik Mono One", monospace;
+}
+header {
+    text-align: center;
+    position: fixed;
+    margin-bottom: 100px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+
+}
+header, nav {
+    margin-bottom: 2%;
+}
+.logo{
+    text-align: center;
+    height: 15%;
+    width: 10%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+nav a:hover{
+    color: red;
+}
+/*Apartir de ahora es todo parte de main */
+main{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex: 5;
+    padding: 20px;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14%;
+}
+.Inicio{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 30px;
+    padding: 25px;
+    background: linear-gradient(to bottom, transparent, black);
+
+}
+.Inicio-img{
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.Inicio-text{
+    padding: 20px;
+    font-size: 2em;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.Sinopsis,
+ .locacion {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    background: linear-gradient(to bottom, transparent, black);
+}
+.left{
+    text-align: left;
+    font-size: 2.5em;
+    border-bottom: 4px solid rgb(199, 12, 12);
+    margin: 50px;
+}
+.Sinopsis p {
+    font-size: 2em;
+    margin: 50px;
+}
+.right{
+    text-align: right;
+    font-size: 2.5em;
+    border-bottom: 4px solid rgb(199, 12, 12);
+    margin: 50px;
+}
+.locacion p{
+    font-size: 2em;
+    margin: 50px;
+}
+
+/*cards*/
+
+.Reparto{
+    text-align: center;
+}
+.Reparto h2{
+    font-size: 2.5em;
+}
+.Cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    background: linear-gradient(to bottom, transparent, black);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+/*produccion*/
+
+.Produccion{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    background: linear-gradient(to bottom, transparent, black);
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*curiosidades*/
+.Curiosidades,
+.Montajes,
+.Robot {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    background: linear-gradient(to bottom, transparent, black);
+    margin: 60px;
+}
+.Curiosidades{
+    margin-top: 100px;
+    
+}
+.Curiosidades h2{
+    font-size: 3em;
+    
+}
+.Curiosidades h3{
+    text-align: left;
+    font-size: 2em;
+    border-bottom: 4px solid rgb(199, 12, 12);
+    margin: 50px;
+}
+.Curiosidades p{
+    font-size: 2em;
+    margin: 50px;
+}
+
+
+.Montajes h3{
+    text-align: right;
+    font-size: 2em;
+    border-bottom: 4px solid rgb(199, 12, 12);
+    margin: 50px;
+}
+.Montajes p{
+    font-size: 2em;
+    margin: 50px;
+}
+.Robot h3{
+    text-align: left;
+    font-size: 2em;
+    border-bottom: 4px solid rgb(199, 12, 12);
+    margin: 50px;
+}
+.Robot p{
+    font-size: 2em;
+    margin: 50px;
+}
+
+/*footer*/
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
